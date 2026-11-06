@@ -1,0 +1,12 @@
+# Custom items, loaded when the game starts. Add your own!
+# KIND;Name;minLevel;value;required STR,AGI,INT,STA;allowed classes (empty = all)
+#
+# value: WEAPON damage | SHIELD, CLOTHES defense | POTION health | SCROLL experience
+#        RING bonus STR,AGI,INT,STA | ELIXIR STAT:amount
+WEAPON;Flaming Sword;3;35;80,0,0,0;Champion
+RING;Ring of Focus;2;0,0,5,5
+POTION;Night Owl Coffee;1;15
+SCROLL;Notes of a Wise Student;2;150;0,0,0,0;Wizard,Elf
+ELIXIR;Runner's Tonic;2;STAMINA:2
+WEAPON;Bone Sword;5;9;65,0,0,0;Wizard
+SCROLL;Pages of the Demon's Book;2;150;0,0,150,0;Wizard
